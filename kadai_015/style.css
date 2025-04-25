@@ -21,10 +21,6 @@ body {
     color: rgb(255, 192, 203);
   }
 
-  .bold-text {
+  #basic .bold-text {
     font-weight: bold;
-  }
-
-#parent p  {
-  font-weight: bold;
 }
