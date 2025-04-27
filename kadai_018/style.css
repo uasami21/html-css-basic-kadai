@@ -6,20 +6,19 @@
     width: 800px;
     background-color: #dcc9f4;
     text-align: center;
-    display: flex; 
     justify-content: center;
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    flex-direction: row;
 }
 
-  #top .top-child {
+#top .top-child {
+    display: inline-block; 
     width: 20%;
     background-color: #ffd9df;
-    margin: 20px;
+    margin: 20px 0; 
+    vertical-align: top; 
 }
 
 #middle {
@@ -28,7 +27,7 @@
     background-color: #ffd9df;
     margin: 20px auto; 
     position: relative; 
-  }
+}
 
 #middle-child01,
 #middle-child02,
